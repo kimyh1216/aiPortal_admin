@@ -1,0 +1,10 @@
+#page-content {
+    padding-top: 60px;
+}
+
+.header {
+    position: fixed;
+    width: calc(100% - 249px);
+    top: 0;
+    z-index: 100;
+}
