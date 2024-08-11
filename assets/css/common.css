@@ -11,6 +11,43 @@
     z-index: 100;
 }
 
+.navbar-classic {
+    background-color: #0088c7;
+    color: #fff;
+}
+
+.navbar-vertical {
+    background-color: #f0f0f0;
+}
+
+.header .navbar #nav-toggle {
+    color: #fff;
+}
+
+.navbar-vertical .navbar-nav .nav-item .nav-link.active,
+.navbar-vertical .navbar-nav .nav-item .nav-link:hover {
+    color: #000;
+}
+
+.navbar-vertical .navbar-nav .nav-item .nav-link:hover .nav-icon,
+.navbar-vertical .navbar-nav .nav-item .nav-link.active .nav-icon {
+    color: #000;
+}
+
+.header .navbar {
+    box-shadow: none;
+}
+
+.navbar-vertical .navbar-brand {
+    height: 64px;
+    background-color: #0088c7;
+    box-shadow: none;
+}
+
+.navbar-vertical {
+    border-right: 0;
+}
+
 .toggled {
     .header {
         width: 100%;
@@ -31,7 +68,7 @@
     top: 50%;
     width: 38px;
     height: 38px;
-    border: 1px solid #624bff;
+    border: 1px solid #fff;
     border-radius: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -43,7 +80,7 @@
     top: 50%;
     width: 28px;
     height: 28px;
-    border: 1px solid #624bff;
+    border: 1px solid #fff;
     border-radius: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -56,7 +93,7 @@
     font-size: 0.65rem;
     letter-spacing: -0.5px;
     font-weight: 700;
-    color: #333;
+    color: #fff;
 }
 
 .guage #guage-text:after {
@@ -107,7 +144,7 @@
 .btn-myInfo {
     width: 38px;
     height: 38px;
-    background: #624bff url(../images/icons/ico_myInfo.png) center no-repeat;
+    background: url(../images/icons/ico_myInfo.png) center no-repeat;
     background-size: 65%;
     border: 0;
     border-radius: 50%;
